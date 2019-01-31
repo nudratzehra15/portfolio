@@ -1,0 +1,55 @@
+h1{
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 50px;
+	text-align:center;
+	padding-top: 30px;
+	position: relative;
+	color: #fff;
+}
+
+.buttons{
+	margin-left: 1%;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-bottom: 0.5%;
+	padding-top: 0.5%;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 25px;
+	background-color: #b3b3ff;
+	text-align:center; 
+	cursor: pointer;	
+	
+
+}
+
+.buttons:hover {
+	background-color: #000;
+	color: #fff;
+}
+.center{
+	text-align:center;
+}
+
+#container {
+  width: 730px;	
+  height: 415px;
+  position: relative;
+  border-radius: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px #fff;
+  background-image: url("../images/background.png");
+}
+#animate {
+  left: 130px;
+  bottom: 70px;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+div.image {
+   content:url("../images/character.png");
+   margin: 0;
+   padding: 0;
+}

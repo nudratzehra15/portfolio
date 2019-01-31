@@ -1,0 +1,162 @@
+#title{
+	text-align: center;
+	font-family: Bookman, URW Bookman L, serif;
+	font-style: oblique;
+	font-size: 4em;
+	margin-top: 0.8em;
+
+}
+
+#quote{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 2.5em;
+	margin-top: 1.5em;
+
+}
+
+.slash{
+	font-size: 10em;
+	color:burlywood;
+}
+
+.navbar-nav{
+	color:black;
+}
+#nav{
+	color: black;
+	background-color: white;
+}
+
+.navbar-dark{
+	color: black;
+}
+
+.nav-link{
+	color:black;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  z-index: 99;
+  font-size: 1.em;
+  border: none;
+  outline: none;
+  background-color: #6C3D00;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10em;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.jumbotron .jumbotron-fluid .megatron{
+	background-color: none;
+}
+
+.megatron {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+	background:none;
+}
+.megatron video {
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+	z-index:1;
+}
+
+.megatron .overlap {
+    position: absolute;
+  	top:8em;
+    margin-left: 30%;
+    z-index:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlap-2{
+    position: absolute;
+  	top:8em;
+    margin-left: 60%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+	background-color: #AC752F;
+	padding: 1em;
+	border: none;
+	font-weight: bold;
+	text-decoration: overline;
+	border-bottom: solid;
+}
+
+.button a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.button:hover{
+	background-color: #DD9B45;
+	color:#844F09;
+	border: white;
+}
+
+.sub-headings{
+	text-align: center;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	letter-spacing: 0.3em;
+	font-size: 2em;
+}
+
+.image-fluid{
+	padding: none;
+}
+
+.fa {
+  padding:2em;
+  font-size: 0.9em;
+  width: 5em;
+  text-align: center;
+  text-decoration: none;
+  margin: 1em 0.5em;
+  border-radius: 50%;
+}
+
+.fa:hover {
+	opacity: 0.7;
+	text-decoration:inherit;
+	color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}

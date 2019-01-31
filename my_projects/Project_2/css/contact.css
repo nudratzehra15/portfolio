@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+#title{
+	text-align: center;
+	font-family: Bookman, URW Bookman L, serif;
+	font-style: oblique;
+	font-size: 4em;
+	margin-top: 1em;
+
+}
+
+#quote{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 2.5em;
+	margin-top: 2em;
+
+}
+
+.slash{
+	font-size: 10em;
+	color:burlywood;
+}
+
+.fa {
+  padding:2em;
+  width: 5em;
+  text-align: center;
+  text-decoration: none;
+  margin: 1em 1em;
+  border-radius: 30%;
+}
+
+.fa:hover {
+	opacity: 0.7;
+	text-decoration:inherit;
+	color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.sub-headings{
+	text-align: center;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	letter-spacing: 0.3em;
+}
+
+button{
+	background-color: #AC752F;
+	padding: 1em;
+	border: none;
+	font-weight: bold;
+	text-decoration: overline;
+	border-bottom: solid;
+}
+
+button:hover{
+	background-color: #DD9B45;
+	color:#844F09;
+	border: white;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  z-index: 99;
+  font-size: 1.em;
+  border: none;
+  outline: none;
+  background-color: #6C3D00;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10em;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.button{
+	background-color: #AC752F;
+	padding: 1em;
+	border: none;
+	font-weight: bold;
+	text-decoration: overline;
+	border-bottom: solid;
+}
+
+.button a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.button:hover{
+	background-color: #DD9B45;
+	color:#844F09;
+	border: white;
+}

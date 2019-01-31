@@ -1,0 +1,29 @@
+h5{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 1.7em;
+}
+
+h6{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 1.2em;
+}
+
+.image{
+	border-radius: 2em;
+}
+
+.grayscale:hover {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.button{
+	background-color: #AC752F;
+	padding: 1em;
+	padding-left: 5em;
+	padding-right: 5em;
+	border: none;
+	font-weight: bold;
+	text-decoration: overline;
+	border-bottom: solid;
+}

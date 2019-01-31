@@ -1,0 +1,12 @@
+.img-fluid{
+	width: 70%;
+	margin-left: 15%;
+}
+
+p{
+	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 1.2em;
+	margin-left: 3em;
+	margin-right: 3em;
+}
